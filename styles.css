@@ -74,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -98,7 +98,17 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.card2 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card2:hover {
   border-color: #ff99ff;
 }
 
@@ -178,6 +188,15 @@ a.social:hover {
       justify-content: space-around;
       margin: 0 auto;
   }
+  .experience {
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex; 
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+    box-align: center;
+}
 
   header {
     min-height: 470px;
